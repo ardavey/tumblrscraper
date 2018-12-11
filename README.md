@@ -3,9 +3,8 @@ Download all of the images from a given tumblr blog in chronological order.
 
 USAGE:
 
-   `./tumblrscrape.pl -u blogname`
+   `./scrape.pl blogname`
    
-   e.g. To scrape foobar.tumblr.com, run `./tumblrscrape.pl -u foobar`
+   e.g. To scrape foobar.tumblr.com, run `./scrape.pl foobar`
 
-TODO:
-   * Queue for photo downloads with a pool of worker threads
+A `foobar` directory will be created and the content downloaded to there.
